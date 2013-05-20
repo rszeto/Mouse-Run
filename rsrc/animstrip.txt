@@ -1,0 +1,16 @@
+14 rsrc/standleft.png 16
+14 rsrc/standright.png 16
+1 rsrc/jumpleft.png 1
+1 rsrc/jumpright.png 1
+9 rsrc/runleft.png 6
+9 rsrc/runright.png 6
+16 rsrc/dance.png 5
+
+$$
+
+1 standleft.png
+1 standright.png
+1 jumpleft.png
+1 jumpright.png
+3 runleft.png
+3 runright.png

@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<levels>	
+	<world gravityY="30f" width="2000" height="1000" iterations="5" antiGY="-30.3f" background="rsrc/indepbg.png">
+		<goal>
+			<x>900</x>
+			<y>350</y>
+			<width>55</width>
+			<height>35</height>
+			<image>rsrc/cheese.png</image>
+		</goal>
+		<goal>
+			<x>100</x>
+			<y>970</y>
+			<width>55</width>
+			<height>35</height>
+			<image>rsrc/hole.png</image>
+		</goal>
+		<body type="CharBody">
+			<shape type="Box">
+				<width>35</width>
+				<height>45</height>
+			</shape>
+			<mass>1</mass>
+			<x>300</x>
+			<y>950</y>
+			<image>rsrc/animstrip.txt</image>
+			<restitution>.1f</restitution>
+			<friction>0.3f</friction>
+		</body>
+		<body type="StaticBody">
+			<shape type="Box">
+				<width>20</width>
+				<height>100</height>
+			</shape>
+			<x>0</x>
+			<y>950</y>
+			<friction>0.1f</friction>
+		</body>
+		<body type="StaticBody">
+			<shape type="Box">
+				<width>1000</width>
+				<height>20</height>
+			</shape>
+			<x>370</x>
+			<y>1000</y>
+			<restitution>.5f</restitution>
+			<friction>1f</friction>
+		</body>
+		<body type="StaticBody">
+			<shape type="Box">
+				<width>300</width>
+				<height>20</height>
+			</shape>
+			<x>1350</x>
+			<y>1000</y>
+			<friction>1f</friction>
+		</body>
+		<body type="default">
+			<shape type="Box">
+				<width>400</width>
+				<height>50</height>
+			</shape>
+			<mass>60f</mass>
+			<x>1650</x>
+			<y>900</y>
+			<friction>1f</friction>
+			<canMove>false</canMove>
+		</body>
+		<body type="StaticBody">
+			<shape type="Box">
+				<width>300</width>
+				<height>20</height>
+			</shape>
+			<x>1400</x>
+			<y>700</y>
+		</body>
+		<body type="StaticBody">
+			<shape type="Box">
+				<width>600</width>
+				<height>20</height>
+			</shape>
+			<x>1100</x>
+			<y>600</y>
+			<rotation>0.78539816339744f</rotation>
+			<friction>.1f</friction>
+		</body>
+		<body type="default">
+			<shape type="Circle">
+				<radius>177</radius>
+			</shape>
+			<mass>15</mass>
+			<x>700</x>
+			<y>950</y>
+			<friction>1f</friction>
+		</body>
+		<body type="default">
+			<shape type="Circle">
+				<radius>28</radius>
+			</shape>
+			<mass>3</mass>
+			<x>150</x>
+			<y>950</y>
+		</body>
+		<body type="default">
+			<shape type="Box">
+				<width>60</width>
+				<height>40</height>
+			</shape>
+			<mass>100</mass>
+			<x>400</x>
+			<y>970</y>
+			<canFloat>true</canFloat>
+			<canRotate>false</canRotate>
+			<friction>50f</friction>
+		</body>
+		<!--
+		<body type="StaticBody">
+			<shape type="Polygon">
+				<Vector2f>
+					<x>0</x>
+					<y>20</y>
+				</Vector2f>
+				<Vector2f>
+					<x>60</x>
+					<y>-20</y>
+				</Vector2f>
+				<Vector2f>
+					<x>60</x>
+					<y>20</y>
+				</Vector2f>
+			</shape>
+			<x>300</x>
+			<y>1750</y>
+		</body>
+		-->
+	</world>
+	<world gravityY="30f" width="700" height="850" iterations="5" antiGY="-30.3f" background="rsrc/pinballbg.png">
+		<body type="CharBody">
+			<shape type="Box">
+				<width>35</width>
+				<height>45</height>
+			</shape>
+			<mass>1</mass>
+			<x>20</x>
+			<y>570</y>
+			<image>rsrc/animstrip.txt</image>
+			<restitution>1f</restitution>
+			<friction>0f</friction>
+		</body>
+		<goal>
+			<x>570</x>
+			<y>200</y>
+			<width>55</width>
+			<height>35</height>
+			<image>rsrc/cheese.png</image>
+		</goal>
+		<goal>
+			<x>360</x>
+			<y>770</y>
+			<width>55</width>
+			<height>35</height>
+			<image>rsrc/hole.png</image>
+		</goal>
+		<body type="StaticBody">
+			<shape type="Box">
+				<width>250</width>
+				<height>20</height>
+			</shape>
+			<x>210</x>
+			<y>750</y>
+			<rotation>0.25f</rotation>
+		</body>
+		<body type="StaticBody">
+			<shape type="Box">
+				<width>20</width>
+				<height>550</height>
+			</shape>
+			<x>80</x>
+			<y>475</y>
+		</body>
+		<body type="StaticBody">
+			<shape type="Box">
+				<width>50</width>
+				<height>40</height>
+			</shape>
+			<x>45</x>
+			<y>730</y>
+			<restitution>3f</restitution>
+		</body>
+		<body type="StaticBody">
+			<shape type="Box">
+				<width>150</width>
+				<height>20</height>
+			</shape>
+			<x>55</x>
+			<y>100</y>
+			<rotation>-0.8f</rotation>
+			<restitution>0.5f</restitution>
+		</body>
+		<body type="StaticBody">
+			<shape type="Box">
+				<width>20</width>
+				<height>600</height>
+			</shape>
+			<x>10</x>
+			<y>450</y>
+		</body>
+		<body type="StaticBody">
+			<shape type="Box">
+				<width>150</width>
+				<height>20</height>
+			</shape>
+			<x>595</x>
+			<y>100</y>
+			<rotation>0.8f</rotation>
+			<restitution>0.5f</restitution>
+		</body>
+		<body type="StaticBody">
+			<shape type="Box">
+				<width>450</width>
+				<height>20</height>
+			</shape>
+			<x>325</x>
+			<y>50</y>
+		</body>
+		<body type="StaticBody">
+			<shape type="Box">
+				<width>175</width>
+				<height>20</height>
+			</shape>
+			<x>570</x>
+			<y>510</y>
+			<rotation>-0.5f</rotation>
+		</body>
+		<body type="StaticBody">
+			<shape type="Box">
+				<width>20</width>
+				<height>600</height>
+			</shape>
+			<x>643</x>
+			<y>448</y>
+		</body>
+		<body type="StaticBody">
+			<shape type="Box">
+				<width>250</width>
+				<height>20</height>
+			</shape>
+			<x>510</x>
+			<y>750</y>
+			<rotation>-0.25f</rotation>
+		</body>
+		<body type="StaticBody">
+			<shape type="Box">
+				<width>20</width>
+				<height>100</height>
+			</shape>
+			<x>510</x>
+			<y>200</y>
+		</body>
+		<body type="StaticBody">
+			<shape type="Box">
+				<width>20</width>
+				<height>100</height>
+			</shape>
+			<x>540</x>
+			<y>285</y>
+			<rotation>-0.7f</rotation>
+		</body>
+		<body type="StaticBody">
+			<shape type="Box">
+				<width>20</width>
+				<height>100</height>
+			</shape>
+			<x>570</x>
+			<y>370</y>
+		</body>
+		<body type="StaticBody">
+			<shape type="Circle">
+				<radius>30</radius>
+			</shape>
+			<x>200</x>
+			<y>165</y>
+			<restitution>2f</restitution>
+		</body>
+		<body type="StaticBody">
+			<shape type="Circle">
+				<radius>30</radius>
+			</shape>
+			<x>400</x>
+			<y>165</y>
+			<restitution>2f</restitution>
+		</body>
+		<body type="StaticBody">
+			<shape type="Circle">
+				<radius>30</radius>
+			</shape>
+			<x>300</x>
+			<y>300</y>
+			<restitution>2f</restitution>
+		</body>
+		<body type="StaticBody">
+			<shape type="Polygon">
+				<Vector2f>
+					<x>0</x>
+					<y>30</y>
+				</Vector2f>
+				<Vector2f>
+					<x>120</x>
+					<y>-20</y>
+				</Vector2f>
+				<Vector2f>
+					<x>120</x>
+					<y>30</y>
+				</Vector2f>
+			</shape>
+			<x>400</x>
+			<y>680</y>
+			<restitution>1.5f</restitution>
+			<rotation>-0.3f</rotation>
+		</body>
+		<body type="StaticBody">
+			<shape type="Polygon">
+				<Vector2f>
+					<x>0</x>
+					<y>30</y>
+				</Vector2f>
+				<Vector2f>
+					<x>0</x>
+					<y>-20</y>
+				</Vector2f>
+				<Vector2f>
+					<x>120</x>
+					<y>30</y>
+				</Vector2f>
+			</shape>
+			<x>200</x>
+			<y>645</y>
+			<restitution>1.5f</restitution>
+			<rotation>0.3f</rotation>
+		</body>
+		<body type="StaticBody">
+			<shape type="Polygon">
+				<Vector2f>
+					<x>0</x>
+					<y>20</y>
+				</Vector2f>
+				<Vector2f>
+					<x>0</x>
+					<y>-20</y>
+				</Vector2f>
+				<Vector2f>
+					<x>85</x>
+					<y>20</y>
+				</Vector2f>
+			</shape>
+			<x>100</x>
+			<y>430</y>
+			<restitution>1.5f</restitution>
+			<rotation>0.1f</rotation>
+		</body>
+		<body type="StaticBody">
+			<shape type="Polygon">
+				<Vector2f>
+					<x>0</x>
+					<y>20</y>
+				</Vector2f>
+				<Vector2f>
+					<x>85</x>
+					<y>-20</y>
+				</Vector2f>
+				<Vector2f>
+					<x>85</x>
+					<y>20</y>
+				</Vector2f>
+			</shape>
+			<x>450</x>
+			<y>440</y>
+			<restitution>1.5f</restitution>
+			<rotation>-0.1f</rotation>
+		</body>
+	</world>
+	<world gravityY="30f" width="1000" height="500" iterations="5" background="rsrc/bouncyBG.png">
+		<body type="CharBody">
+			<shape type="Box">
+				<width>35</width>
+				<height>45</height>
+			</shape>
+			<mass>1</mass>
+			<x>300</x>
+			<y>300</y>
+			<image>rsrc/animstrip.txt</image>
+			<restitution>0.5f</restitution>
+			<friction>0.5f</friction>
+		</body>
+		<goal>
+			<x>50</x>
+			<y>40</y>
+			<width>55</width>
+			<height>35</height>
+			<image>rsrc/cheese.png</image>
+		</goal>
+		<goal>
+			<x>950</x>
+			<y>40</y>
+			<width>55</width>
+			<height>35</height>
+			<image>rsrc/hole.png</image>
+		</goal>
+		<body type="StaticBody">
+			<shape type="Box">
+				<width>1000</width>
+				<height>20</height>
+			</shape>
+			<x>500</x>
+			<y>490</y>
+			<restitution>2.1f</restitution>
+		</body>
+		<body type="StaticBody">
+			<shape type="Box">
+				<width>1000</width>
+				<height>20</height>
+			</shape>
+			<x>500</x>
+			<y>10</y>
+		</body>
+		<body type="StaticBody">
+			<shape type="Box">
+				<width>20</width>
+				<height>460</height>
+			</shape>
+			<x>10</x>
+			<y>250</y>
+			<restitution>2.1f</restitution>
+		</body>
+		<body type="StaticBody">
+			<shape type="Box">
+				<width>20</width>
+				<height>460</height>
+			</shape>
+			<x>990</x>
+			<y>250</y>
+			<restitution>2.1f</restitution>
+		</body>
+		<body type="StaticBody">
+			<shape type="Box">
+				<width>40</width>
+				<height>40</height>
+			</shape>
+			<x>100</x>
+			<y>460</y>
+			<restitution>2.1f</restitution>
+		</body>
+		<body type="StaticBody">
+			<shape type="Box">
+				<width>40</width>
+				<height>40</height>
+			</shape>
+			<x>300</x>
+			<y>460</y>
+			<restitution>2.1f</restitution>
+		</body>
+		<body type="StaticBody">
+			<shape type="Box">
+				<width>40</width>
+				<height>40</height>
+			</shape>
+			<x>500</x>
+			<y>460</y>
+			<restitution>2.1f</restitution>
+		</body>
+		<body type="StaticBody">
+			<shape type="Box">
+				<width>40</width>
+				<height>40</height>
+			</shape>
+			<x>700</x>
+			<y>460</y>
+			<restitution>2.1f</restitution>
+		</body>
+		<body type="StaticBody">
+			<shape type="Box">
+				<width>40</width>
+				<height>40</height>
+			</shape>
+			<x>900</x>
+			<y>460</y>
+			<restitution>2.1f</restitution>
+		</body>
+		<body type="default">
+			<shape type="Circle">
+				<radius>40</radius>
+			</shape>
+			<mass>1.4</mass>
+			<x>140</x>
+			<y>300</y>
+			<restitution>0.6f</restitution>
+			<rotation>1f</rotation>
+		</body>
+		<body type="default">
+			<shape type="Circle">
+				<radius>40</radius>
+			</shape>
+			<mass>1.4</mass>
+			<x>546</x>
+			<y>100</y>
+			<restitution>0.6f</restitution>
+		</body>
+		<body type="default">
+			<shape type="Circle">
+				<radius>40</radius>
+			</shape>
+			<mass>1.4</mass>
+			<x>935</x>
+			<y>350</y>
+			<restitution>0.6f</restitution>
+		</body>
+	</world>
+</levels>
